@@ -5,7 +5,7 @@ import { HttpService } from './http.service';
 export class IdentifyService {
   constructor(
     @inject(HttpService) private httpService: HttpService,
-  ) { }
+  ) {}
 
   namespace = '/identify';
 
